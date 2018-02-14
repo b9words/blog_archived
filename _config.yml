@@ -9,16 +9,16 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 remote_theme             : "mmistakes/minimal-mistakes"
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
+locale                   : "ko-KR"
+title                    : "한번 더 물음"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "한번 더 물음"
+description              : "한번 더 물음."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
@@ -85,10 +85,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "오랜 친구들"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "옛 친구들끼리 만나 관심있는 주제, 분야에 대해서 토의합니다."
+  location         : "서울, 한국"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -241,6 +241,7 @@ compress_html:
     envs: development
 
 
+#
 # Defaults
 defaults:
   # _posts
@@ -251,6 +252,36 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _recipes
+  - scope:
+      path: ""
+      type: recipes
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _pets
+  - scope:
+      path: ""
+      type: pets
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true

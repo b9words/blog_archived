@@ -1,0 +1,13 @@
+Jin Kim:
+  name: "김진용"
+  uri: "http://www.naver.com"
+  email: "jinyongkim1@gmail.com"
+  bio: "반가워요, 저는 엔지니어입니다."
+  avatar: "/assets/images/bio-photo-2.jpg"
+  twitter: "jinyongkim1"
+
+KyungRyul Park:
+  name: "박경렬"
+  email: "parkgyeongryul@gmail.com"
+  bio: "안녕하세요, 역사학도 박경렬입니다."
+  avatar: "/assets/images/bio-photo.jpg"
