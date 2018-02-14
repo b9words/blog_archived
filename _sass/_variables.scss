@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Nanum Square';
+    src: url(assets/NanumSquareR.otf) format('opentype');
+}
+
+
+$serif              : "Nanum Square";
+$sans-serif-narrow  : "PT Sans Narrow", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+
+$global-font-family : $serif;
+$header-font-family : $sans-serif-narrow;
