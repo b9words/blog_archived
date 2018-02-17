@@ -10,7 +10,7 @@ tags:
   - 저작권
   - 기본기
 
-author: Jin Kim
+author: kimjinyong
 ---
 
 사진을 나한테 줄때는 .jpg 형태로, 어디서 퍼왔는지 명시해주고, 글하고 연관있는거만 1-3개 정도 추려줘!

@@ -1,13 +1,27 @@
-Jin Kim:
+kimjinyong:
   name: "김진용"
   uri: "http://www.naver.com"
   email: "jinyongkim1@gmail.com"
-  bio: "반가워요, 저는 엔지니어입니다."
-  avatar: "/assets/images/bio-photo-2.jpg"
+  bio: "스타트업에서 광고 플랫폼을 개발하고 있는 소프트웨어 엔지니어입니다. '한번 더 물음'을 운영하고 있습니다.'"
+  avatar: "/assets/images/kimjinyong_profile.jpg"
   twitter: "jinyongkim1"
 
-KyungRyul Park:
+parkkyungryul:
   name: "박경렬"
-  email: "parkgyeongryul@gmail.com"
-  bio: "안녕하세요, 역사학도 박경렬입니다."
-  avatar: "/assets/images/bio-photo.jpg"
+  email: "lucas6422@naver.com"
+  bio: "안녕하세요, 역사를 사랑하는 인문학도 박경렬입니다."
+  avatar: "/assets/images/parkkyungryul_profile.jpg"
+
+shinyoonjae:
+  name: "신윤재"
+  email: "yjshin0907@gmail.com"
+  bio: "안녕하세요, 신윤재입니다."
+  avatar: "/assets/images/shinyoonjae_profile.jpg"
+
+hyunjinkwan:
+  name: "현진관"
+  uri: "http://blog.naver.com/gunpla1994"
+  email: "opticon94@gmail.com"
+  bio: "안녕하세요. 철학을 공부하는 생각꾼 현진관입니다."
+  avatar: "/assets/images/hyunjinkwan_profile.jpg"
+  
