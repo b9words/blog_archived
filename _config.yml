@@ -37,7 +37,7 @@ staticman:
   commitMessage          : # "New comment."
   filename               : # comment-{@timestamp}
   format                 : # "yml"
-  moderation             : # false
+  moderation             : true
   path                   : # "/_data/comments/{options.slug}" (default)
   requiredFields         : # ['name', 'email', 'message']
   transforms:
@@ -254,6 +254,7 @@ defaults:
       read_time: true
       share: true
       related: true
+      comments: true
   # _pages
   - scope:
       path: "_pages"
